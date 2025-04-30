@@ -308,5 +308,25 @@
         <members>*</members>
         <name>ConversationMessageDefinition</name>
     </types>
+    <types>
+      <members>*</members>
+      <name>GenAiFunction</name>
+   </types>
+   <types>
+      <members>*</members>
+      <name>GenAiPlanner</name>
+   </types>
+   <types>
+      <members>*</members>
+      <name>GenAiPlugin</name>
+   </types>
+   <types>
+        <members>*</members>
+        <name>GenAiPromptTemplate</name>
+    </types>
+    <types>
+        <name>GenAiPromptTemplateActv</name>
+        <members>HideIntroductionLeadEmail.genAiPromptTemplateActivation</members>
+    </types>
     <version>63.0</version>
 </Package>
