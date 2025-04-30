@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionIdentifier>ROaF5u+q8LtAGo6MlqCjm/FW3XFmnQU+SEC45tE0cbs=_1</activeVersionIdentifier>
+    <developerName>vastu_compliant_based_on_floor_plan</developerName>
+    <masterLabel>vastu compliant based on floor plan</masterLabel>
+    <templateVersions>
+        <content>provide vastu advice on the below floor plan :
+{!$Input:floot_plan_info}
+</content>
+        <inputs>
+            <apiName>floot_plan_info</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>floot plan info</masterLabel>
+            <referenceName>Input:floot_plan_info</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <status>Published</status>
+        <versionIdentifier>ROaF5u+q8LtAGo6MlqCjm/FW3XFmnQU+SEC45tE0cbs=_1</versionIdentifier>
+    </templateVersions>
+    <type>einstein_gpt__flex</type>
+    <visibility>Global</visibility>
+</GenAiPromptTemplate>

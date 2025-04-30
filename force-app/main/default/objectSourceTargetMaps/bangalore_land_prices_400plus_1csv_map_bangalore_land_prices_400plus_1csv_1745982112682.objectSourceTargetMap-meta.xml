@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ObjectSourceTargetMap xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <creationType>Custom</creationType>
+    <fieldSourceTargetMaps>
+        <creationType>System</creationType>
+        <filterApplied>false</filterApplied>
+        <isSourceFormula>true</isSourceFormula>
+        <sourceField xsi:nil="true"/>
+        <sourceFormula>UPLOADEDFILES_UploadedFiles_bangaloreland</sourceFormula>
+        <targetField>bangalore_land_prices_400plus_1csv__dll.DataSourceObject__c</targetField>
+    </fieldSourceTargetMaps>
+    <fieldSourceTargetMaps>
+        <creationType>Custom</creationType>
+        <filterApplied>false</filterApplied>
+        <isSourceFormula>false</isSourceFormula>
+        <sourceField>bangalore_land_prices_400plus_1csv.Year__c</sourceField>
+        <sourceFormula>Year</sourceFormula>
+        <targetField>bangalore_land_prices_400plus_1csv__dll.Year__c</targetField>
+    </fieldSourceTargetMaps>
+    <fieldSourceTargetMaps>
+        <creationType>Custom</creationType>
+        <filterApplied>false</filterApplied>
+        <isSourceFormula>false</isSourceFormula>
+        <sourceField>bangalore_land_prices_400plus_1csv.PostalCode__c</sourceField>
+        <sourceFormula>PostalCode</sourceFormula>
+        <targetField>bangalore_land_prices_400plus_1csv__dll.PostalCode__c</targetField>
+    </fieldSourceTargetMaps>
+    <fieldSourceTargetMaps>
+        <creationType>System</creationType>
+        <filterApplied>false</filterApplied>
+        <isSourceFormula>true</isSourceFormula>
+        <sourceField xsi:nil="true"/>
+        <sourceFormula>UPLOADEDFILES_UploadedFiles</sourceFormula>
+        <targetField>bangalore_land_prices_400plus_1csv__dll.DataSource__c</targetField>
+    </fieldSourceTargetMaps>
+    <fieldSourceTargetMaps>
+        <creationType>Custom</creationType>
+        <filterApplied>false</filterApplied>
+        <isSourceFormula>false</isSourceFormula>
+        <sourceField>bangalore_land_prices_400plus_1csv.PricePerSquareFoot__c</sourceField>
+        <sourceFormula>PricePerSquareFoot</sourceFormula>
+        <targetField>bangalore_land_prices_400plus_1csv__dll.PricePerSquareFoot__c</targetField>
+    </fieldSourceTargetMaps>
+    <fieldSourceTargetMaps>
+        <creationType>System</creationType>
+        <filterApplied>false</filterApplied>
+        <isSourceFormula>true</isSourceFormula>
+        <sourceField xsi:nil="true"/>
+        <sourceFormula>InternalOrganization</sourceFormula>
+        <targetField>bangalore_land_prices_400plus_1csv__dll.InternalOrganization__c</targetField>
+    </fieldSourceTargetMaps>
+    <masterLabel>bangalore_land_prices_400plus_1csv_map_bangalore_land_prices_400plus_1csv_1745982112682</masterLabel>
+    <sourceObjectName>bangalore_land_prices_400plus_1csv</sourceObjectName>
+    <targetObjectName>bangalore_land_prices_400plus_1csv__dll</targetObjectName>
+</ObjectSourceTargetMap>

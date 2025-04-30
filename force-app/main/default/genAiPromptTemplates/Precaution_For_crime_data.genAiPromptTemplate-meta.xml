@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPromptTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <activeVersionIdentifier>ROaF5u+q8LtAGo6MlqCjm/FW3XFmnQU+SEC45tE0cbs=_1</activeVersionIdentifier>
+    <developerName>Precaution_For_crime_data</developerName>
+    <masterLabel>Precaution For crime data</masterLabel>
+    <templateVersions>
+        <content>get the suggestion and precaution based on the crime data that is given in the {!$Input:zipCode}
+</content>
+        <inputs>
+            <apiName>zipCode</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>zipCode</masterLabel>
+            <referenceName>Input:zipCode</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <status>Published</status>
+        <versionIdentifier>ROaF5u+q8LtAGo6MlqCjm/FW3XFmnQU+SEC45tE0cbs=_1</versionIdentifier>
+    </templateVersions>
+    <templateVersions>
+        <content>Analyze the property details below.
+ {!$Input:zipCode}
+ Count the number of previous owners — more owners may indicate high demand.
+ Check for any associated lawsuits.
+ If lawsuits exist, suggest precautionary steps for the seller.
+ Review the loan status — an active loan implies bank validation.
+ Summarize your findings and provide seller recommendations.
+</content>
+        <inputs>
+            <apiName>zipCode</apiName>
+            <definition>primitive://String</definition>
+            <masterLabel>zipCode</masterLabel>
+            <referenceName>Input:zipCode</referenceName>
+            <required>true</required>
+        </inputs>
+        <primaryModel>sfdc_ai__DefaultOpenAIGPT4OmniMini</primaryModel>
+        <status>Draft</status>
+        <versionIdentifier>ROaF5u+q8LtAGo6MlqCjm/FW3XFmnQU+SEC45tE0cbs=_2</versionIdentifier>
+    </templateVersions>
+    <type>einstein_gpt__flex</type>
+    <visibility>Global</visibility>
+</GenAiPromptTemplate>

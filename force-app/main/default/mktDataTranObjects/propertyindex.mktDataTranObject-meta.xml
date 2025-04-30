@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MktDataTranObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <connector>s3_data</connector>
+    <creationType>Custom</creationType>
+    <dataSource>AwsS3_s3_data</dataSource>
+    <dataSourceObject>propertyindex</dataSourceObject>
+    <masterLabel>/ingestdata/property_index.csv s3 data</masterLabel>
+    <mktDataTranFields>
+        <fullName>Air_Quality</fullName>
+        <creationType>Custom</creationType>
+        <datatype>N</datatype>
+        <externalName>Air Quality</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel>Air Quality</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>2</sequence>
+    </mktDataTranFields>
+    <mktDataTranFields>
+        <fullName>Area_Name</fullName>
+        <creationType>Custom</creationType>
+        <datatype>S</datatype>
+        <externalName>Area Name</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel>Area Name</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>1</sequence>
+    </mktDataTranFields>
+    <mktDataTranFields>
+        <fullName>Crim_Against_Women</fullName>
+        <creationType>Custom</creationType>
+        <datatype>N</datatype>
+        <externalName>Crim Against Women</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel>Crim Against Women</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>5</sequence>
+    </mktDataTranFields>
+    <mktDataTranFields>
+        <fullName>Cyber_Crime</fullName>
+        <creationType>Custom</creationType>
+        <datatype>N</datatype>
+        <externalName>Cyber Crime</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel>Cyber Crime</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>6</sequence>
+    </mktDataTranFields>
+    <mktDataTranFields>
+        <fullName>Murder</fullName>
+        <creationType>Custom</creationType>
+        <datatype>N</datatype>
+        <externalName>Murder</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel>Murder</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>3</sequence>
+    </mktDataTranFields>
+    <mktDataTranFields>
+        <fullName>Natura_maintain</fullName>
+        <creationType>Custom</creationType>
+        <datatype>N</datatype>
+        <externalName>Natura maintain %</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel>Natura maintain %</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>14</sequence>
+    </mktDataTranFields>
+    <mktDataTranFields>
+        <fullName>Number_of_Bus_stops</fullName>
+        <creationType>Custom</creationType>
+        <datatype>N</datatype>
+        <externalName>Number of Bus stops</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel>Number of Bus stops</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>10</sequence>
+    </mktDataTranFields>
+    <mktDataTranFields>
+        <fullName>Number_of_college</fullName>
+        <creationType>Custom</creationType>
+        <datatype>N</datatype>
+        <externalName>Number of college</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel>Number of college</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>13</sequence>
+    </mktDataTranFields>
+    <mktDataTranFields>
+        <fullName>Number_of_metrostation</fullName>
+        <creationType>Custom</creationType>
+        <datatype>N</datatype>
+        <externalName>Number of metrostation</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel>Number of metrostation</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>11</sequence>
+    </mktDataTranFields>
+    <mktDataTranFields>
+        <fullName>Number_of_School</fullName>
+        <creationType>Custom</creationType>
+        <datatype>N</datatype>
+        <externalName>Number of School</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel>Number of School</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>12</sequence>
+    </mktDataTranFields>
+    <mktDataTranFields>
+        <fullName>Number_of_water_bodies</fullName>
+        <creationType>Custom</creationType>
+        <datatype>N</datatype>
+        <externalName>Number of water bodies</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel>Number of water bodies</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>9</sequence>
+    </mktDataTranFields>
+    <mktDataTranFields>
+        <fullName>Pin_code</fullName>
+        <creationType>Custom</creationType>
+        <datatype>N</datatype>
+        <externalName>Pin code</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel>Pin code</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>0</sequence>
+    </mktDataTranFields>
+    <mktDataTranFields>
+        <fullName>Taffic_Peak_time</fullName>
+        <creationType>Custom</creationType>
+        <datatype>S</datatype>
+        <externalName>Taffic Peak time</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel>Taffic Peak time</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>8</sequence>
+    </mktDataTranFields>
+    <mktDataTranFields>
+        <fullName>Theft</fullName>
+        <creationType>Custom</creationType>
+        <datatype>N</datatype>
+        <externalName>Theft</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel>Theft</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>4</sequence>
+    </mktDataTranFields>
+    <mktDataTranFields>
+        <fullName>Total_Crime</fullName>
+        <creationType>Custom</creationType>
+        <datatype>N</datatype>
+        <externalName>Total Crime</externalName>
+        <isDataRequired>false</isDataRequired>
+        <length>0</length>
+        <masterLabel>Total Crime</masterLabel>
+        <precision>0</precision>
+        <primaryIndexOrder>0</primaryIndexOrder>
+        <scale>0</scale>
+        <sequence>7</sequence>
+    </mktDataTranFields>
+    <objectCategory>Salesforce_SFDCReferenceModel_0_93.Profile</objectCategory>
+</MktDataTranObject>

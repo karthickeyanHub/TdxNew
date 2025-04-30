@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MktDataConnection xmlns="http://soap.sforce.com/2006/04/metadata">
+    <connectionMethod>Ingress</connectionMethod>
+    <connectionStatus>ACTIVE</connectionStatus>
+    <connectorName>AwsS3</connectorName>
+    <credentials>
+        <fullName>s3_data_accessKey</fullName>
+        <credentialName>accessKey</credentialName>
+        <value>*</value>
+    </credentials>
+    <credentials>
+        <fullName>s3_data_accessSecret</fullName>
+        <credentialName>accessSecret</credentialName>
+        <value>*</value>
+    </credentials>
+    <credentials>
+        <fullName>s3_data_authenticationOption</fullName>
+        <credentialName>authenticationOption</credentialName>
+        <value>*</value>
+    </credentials>
+    <externalRecordIdentifier>5f369866-f86c-4168-ac0d-b34b9baa8393</externalRecordIdentifier>
+    <masterLabel>s3 data</masterLabel>
+    <parameters>
+        <fullName>s3_data_bucketName</fullName>
+        <paramName>bucketName</paramName>
+        <value>rambucketdatacloud</value>
+    </parameters>
+    <parameters>
+        <fullName>s3_data_parentDirectory</fullName>
+        <paramName>parentDirectory</paramName>
+        <value>/</value>
+    </parameters>
+</MktDataConnection>

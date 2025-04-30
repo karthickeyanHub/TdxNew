@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenAiPlugin xmlns="http://soap.sforce.com/2006/04/metadata">
+    <canEscalate>false</canEscalate>
+    <description>Handles displaying property details and relevant information to users.</description>
+    <developerName>Property_Management</developerName>
+    <genAiFunctions>
+        <functionName>Get_the_property_Image_Chat</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>Get_the_property_floor_data_Chat</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>vastu_compliant_based_on_floor_plan_Chat</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>Get_property_belongs_to_zipcode_Chat</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>Get_the_property_Verification_chat</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>Predicted_PricePerSquareFoot_chat</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>Livability_Index_chat</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>crimeData_Chat</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>property_index_evaluation</functionName>
+    </genAiFunctions>
+    <genAiFunctions>
+        <functionName>liveable_score</functionName>
+    </genAiFunctions>
+    <genAiPluginInstructions>
+        <description>If user is interested to purchase the property and gives the name, get the Address (along with zipcode) and the Loan availability status of a specific property invoke the &quot;Get the property Verification&quot;.
+ Count the number of previous owners — more owners may indicate high demand.
+ Check for any associated lawsuits.
+ If lawsuits exist, suggest precautionary steps for the seller.
+ Review the loan status — an active loan implies bank validation.
+Now provide seller recommendations with above guidelines. Show Green tick mark emoji or Red X mark emoji .
+Do not show encumbrance details when the user asks explicitly.</description>
+        <developerName>instruction_ifuserisin0</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_ifuserisin0</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If a user requests specifically for the image for a property, retrieve image by using &quot;Get the property Image&quot;. Otherwise dont show</description>
+        <developerName>instruction_ifauserreq1</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_ifauserreq1</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If the user asks only the details like floor size, retrieve details through &apos;Get the property floor data&apos;</description>
+        <developerName>instruction_iftheusera2</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_iftheusera2</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If user is interested to know about the vaastu of the property the get the details through the &apos;vastu compliant based on floor plan&apos;</description>
+        <developerName>instruction_ifuserisin3</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_ifuserisin3</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If user asks cost per square foot, use postal code and future year information to predict the cost call the &quot;Predicted PricePerSquareFoot&quot; Action. Ensure postal code and year is provided before calling this action</description>
+        <developerName>instruction_ifuserasks4</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_ifuserasks4</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>The instance when the customers asks the pictures and Vaastu, he seems to be prospective. So, add a footer question asking if you would like to be contacted.
+If customer responds Yes, say that one of our customer service agents will contact you. So, ask for email to be left.</description>
+        <developerName>instruction_theinstanc5</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_theinstanc5</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>if liveability index or score  is asked, get postal code  from the user conversation and pass it as input to this action &apos;liveable score&apos; . Execute the action &apos;liveable score&apos; to get liveability index or score</description>
+        <developerName>instruction_ifliveabil6</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_ifliveabil6</masterLabel>
+    </genAiPluginInstructions>
+    <genAiPluginInstructions>
+        <description>If the user specifically asks floor plan, retrieve details through &apos;Get the property floor data&apos;</description>
+        <developerName>instruction_iftheusers7</developerName>
+        <language>en_US</language>
+        <masterLabel>instruction_iftheusers7</masterLabel>
+    </genAiPluginInstructions>
+    <language>en_US</language>
+    <masterLabel>Property Management</masterLabel>
+    <pluginType>Topic</pluginType>
+    <scope>Your job is only to provide detailed information about properties, including relevant details such as location, price, and features.</scope>
+</GenAiPlugin>

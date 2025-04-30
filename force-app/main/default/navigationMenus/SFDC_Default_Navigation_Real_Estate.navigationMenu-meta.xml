@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NavigationMenu xmlns="http://soap.sforce.com/2006/04/metadata">
+    <container>Real Estate</container>
+    <containerType>Network</containerType>
+    <label>Default Navigation</label>
+    <navigationMenuItem>
+        <label>Accounts</label>
+        <position>0</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>Account</target>
+        <type>SalesforceObject</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Claims</label>
+        <position>1</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>Claim</target>
+        <type>SalesforceObject</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Leads</label>
+        <position>2</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>Lead</target>
+        <type>SalesforceObject</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Opportunities</label>
+        <position>3</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>Opportunity</target>
+        <type>SalesforceObject</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Insurance Policies</label>
+        <position>4</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>InsurancePolicy</target>
+        <type>SalesforceObject</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Cases</label>
+        <position>5</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>Case</target>
+        <type>SalesforceObject</type>
+    </navigationMenuItem>
+</NavigationMenu>
