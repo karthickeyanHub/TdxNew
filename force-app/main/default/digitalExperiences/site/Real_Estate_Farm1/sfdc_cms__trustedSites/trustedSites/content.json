@@ -1,0 +1,16 @@
+{
+  "type" : "sfdc_cms__trustedSites",
+  "title" : "trustedSites",
+  "contentBody" : {
+    "trustedSites" : [ {
+      "isActive" : true,
+      "source" : "https://orgfarm-a9128f5954.my.site.com/ESWWebChat1745970562606/assets/js/bootstrap.min.js",
+      "sourceName" : "webchat"
+    }, {
+      "isActive" : true,
+      "source" : "https://orgfarm-a9128f5954.live-preview.salesforce-experience.com",
+      "sourceName" : "web1"
+    } ]
+  },
+  "urlName" : "trustedsites"
+}

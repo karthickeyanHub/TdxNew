@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataSourceObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dataSource>AwsS3_s3_data</dataSource>
+    <externalRecordIdentifier>property_index.csv</externalRecordIdentifier>
+    <masterLabel>property_index.csv</masterLabel>
+    <storageType>LOCAL</storageType>
+    <templateVersion>1</templateVersion>
+</DataSourceObject>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DigitalExperienceConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>ESW_Real_Techtor_Agent_Dep_1745923782663</label>
+    <site>
+        <urlPathPrefix>ESWRealTechtorAgentDep1745923782663</urlPathPrefix>
+    </site>
+    <space>site/ESW_Real_Techtor_Agent_Dep_17459237826631</space>
+</DigitalExperienceConfig>

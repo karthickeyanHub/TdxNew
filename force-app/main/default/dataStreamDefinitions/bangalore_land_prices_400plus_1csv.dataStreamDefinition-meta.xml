@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataStreamDefinition xmlns="http://soap.sforce.com/2006/04/metadata">
+    <areHeadersIncludedInFile>false</areHeadersIncludedInFile>
+    <bulkIngest>false</bulkIngest>
+    <creationType>Custom</creationType>
+    <dataConnector>UploadedFiles</dataConnector>
+    <dataConnectorType>UploadedFiles</dataConnectorType>
+    <dataPlatformDataSetItemName>CONNECTORSFRAMEWORK</dataPlatformDataSetItemName>
+    <dataSource>UPLOADEDFILES_UploadedFiles</dataSource>
+    <isLimitedToNewFiles>false</isLimitedToNewFiles>
+    <isMissingFileFailure>false</isMissingFileFailure>
+    <masterLabel>land_prices</masterLabel>
+    <mktDataLakeObject>bangalore_land_prices_400plus_1csv__dll</mktDataLakeObject>
+    <mktDataTranObject>bangalore_land_prices_400plus_1csv</mktDataTranObject>
+    <parameters>
+        <fullName>bangalore_land_prices_400plus_1csv_delimiter</fullName>
+        <paramName>delimiter</paramName>
+        <value>,</value>
+    </parameters>
+    <parameters>
+        <fullName>bangalore_land_prices_400plus_1csv_fileName</fullName>
+        <paramName>fileName</paramName>
+        <value>bangalore_land_prices_400plus (1).csv</value>
+    </parameters>
+    <parameters>
+        <fullName>bangalore_land_prices_400plus_1csv_fileType</fullName>
+        <paramName>fileType</paramName>
+        <value>CSV</value>
+    </parameters>
+    <parameters>
+        <fullName>bangalore_land_prices_400plus_1csv_importDirectory</fullName>
+        <paramName>importDirectory</paramName>
+        <value>005dL00000GefdTQAR/2025-04-30T03:01:23.279Z</value>
+    </parameters>
+    <parameters>
+        <fullName>bangalore_land_prices_400plus_1csv_parentDirectory</fullName>
+        <paramName>parentDirectory</paramName>
+        <value>s3://aws-prod2-apsouth1-cdp2-lakehouse-2/sfdrive/a360-prod2-147fb865510c44998f59f5b47e548cf1/flup-fileUploads/dc_file_upload</value>
+    </parameters>
+</DataStreamDefinition>
